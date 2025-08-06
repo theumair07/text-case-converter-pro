@@ -229,6 +229,7 @@ class TextFormatter {
     if (!this.textEditor) return;
 
     this.textEditor.value = '';
+    this.textEditor.innerHTML = '';
     this.textEditor.focus();
     this.updateStatus('Text cleared');
     

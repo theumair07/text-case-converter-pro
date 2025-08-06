@@ -202,6 +202,11 @@ body {
   color: rgba(255, 255, 255, 0.4);
 }
 
+.text-editor:empty::before {
+  content: attr(data-placeholder);
+  color: rgba(255, 255, 255, 0.4);
+  pointer-events: none;
+}
 .controls {
   display: flex;
   flex-wrap: wrap;
