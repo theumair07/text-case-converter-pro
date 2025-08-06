@@ -167,4 +167,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 🐛 **Found a bug?** [Open an issue](https://github.com/theumair07/text-case-converter-pro/issues)
 
-💡 **Have a feature request?** [Start a discussion](https://github.com/theumair07/text-case-converter-pro/discussions)
+💡 **Have a feature request?** [Start a discussion](https://umairyousafzai.com/)
