@@ -149,7 +149,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Umair Yousafzai**
 - 🌐 Website: [https://umairyousafzai.com](https://umairyousafzai.com)
-- 📧 Email: [Contact Form](https://umairyousafzai.com/contact/)
+- 📧 Email: [hello@umairyousafzai.com](mailto:hello@umairyousafzai.com)
 - 💼 GitHub: [@theumair07](https://github.com/theumair07)
 
 **Project Link:** [https://github.com/theumair07/text-case-converter-pro](https://github.com/theumair07/text-case-converter-pro)
