@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter PRO - Advanced Text Case Converter Tool</title>
+    <meta name="description" content="Convert text into any case format with Converter PRO. Free online text case conversion utility with instant copy functionality.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h2>Converter PRO</h2>
+                </div>
+                <nav class="nav">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="https://umairyousafzai.com/contact/" class="nav-link" target="_blank" rel="noopener">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Tool Section (Now Hero) -->
+    <section class="tool-section" id="home">
+        <div class="container">
+            <div class="tool-card">
+                <div class="tool-header">
+                    <h1>Case Converter PRO</h1>
+                    <p class="tool-subtitle">Convert text into any case format with a single click</p>
+                    <div class="tool-status" id="toolStatus">Ready to format</div>
+                </div>
+                
+                <div class="editor-container">
+                    <textarea 
+                        id="textEditor" 
+                        class="text-editor" 
+                        placeholder="Paste your text here and watch the magic happen..."
+                        spellcheck="false"
+                    ></textarea>
+                </div>
+
+                <div class="controls">
+                    <div class="control-group">
+                        <button class="control-btn case-btn" data-transform="uppercase">UPPERCASE</button>
+                        <button class="control-btn case-btn" data-transform="lowercase">lowercase</button>
+                        <button class="control-btn case-btn" data-transform="sentence">Sentence case</button>
+                        <button class="control-btn case-btn" data-transform="capitalize">Capitalized</button>
+                    </div>
+                    
+                    <div class="control-group">
+                        <button class="control-btn format-btn" data-format="bold">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <path d="M6 4h8a4 4 0 0 1 4 4 4 4 0 0 1-4 4H6z"/>
+                                <path d="M6 12h9a4 4 0 0 1 4 4 4 4 0 0 1-4 4H6z"/>
+                            </svg>
+                            Bold
+                        </button>
+                        <button class="control-btn format-btn" data-format="italic">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <line x1="19" y1="4" x2="10" y2="4"/>
+                                <line x1="14" y1="20" x2="5" y2="20"/>
+                                <line x1="15" y1="4" x2="9" y2="20"/>
+                            </svg>
+                            Italic
+                        </button>
+                        <button class="control-btn format-btn" data-format="underline">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <path d="M6 4v7a6 6 0 0 0 12 0V4"/>
+                                <line x1="4" y1="20" x2="20" y2="20"/>
+                            </svg>
+                            Underline
+                        </button>
+                        <button class="control-btn copy-btn" id="copyBtn">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <rect width="14" height="14" x="8" y="8" rx="2" ry="2"/>
+                                <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>
+                            </svg>
+                            Copy
+                        </button>
+                        <button class="control-btn clear-btn" id="clearBtn">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <path d="M3 6h18"/>
+                                <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/>
+                                <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/>
+                                <line x1="10" y1="11" x2="10" y2="17"/>
+                                <line x1="14" y1="11" x2="14" y2="17"/>
+                            </svg>
+                            Clear
+                        </button>
+                    </div>
+                </div>
+
+                <div class="success-message" id="successMessage">
+                    ✅ Copied!
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
+                            <rect width="8" height="4" x="8" y="2" rx="1" ry="1"/>
+                            <path d="M9 14l2 2 4-4"/>
+                        </svg>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Instant Copy on Convert</h3>
+                        <p>Every transformation automatically copies to your clipboard for immediate use.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14,2 14,8 20,8"/>
+                            <line x1="16" y1="13" x2="8" y2="13"/>
+                            <line x1="16" y1="17" x2="8" y2="17"/>
+                            <polyline points="10,9 9,9 8,9"/>
+                        </svg>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Clean Text Formatting</h3>
+                        <p>Apply bold, italic, and underline formatting with visual feedback in real-time.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+                            <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+                        </svg>
+                    </div>
+                    <div class="feature-content">
+                        <h3>No Login Needed</h3>
+                        <p>Start formatting immediately. No accounts, no sign-ups, no hassle.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect width="20" height="14" x="2" y="3" rx="2" ry="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Works on All Devices</h3>
+                        <p>Responsive design that works perfectly on desktop, tablet, and mobile.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-header">
+                <h2>Case Converter PRO</h2>
+            </div>
+            <div class="about-text">
+                <p>
+                    <i>Case Converter PRO is a powerful text case conversion utility designed for writers, developers, content creators, and anyone who needs to quickly transform text formatting. This free online tool provides instant text case conversions with professional-grade accuracy and speed, eliminating the tedious process of manually adjusting text case across different formats.</i>
+                </p>
+                <p>
+                   <i> The conversion process is simple and efficient: paste or type your text into the input field, select your desired case format from the available options (UPPERCASE, lowercase, Sentence case, or Capitalized Case), and the tool instantly transforms your text while automatically copying the result to your clipboard. Additional formatting options like Bold, Italic, and Underline are also available to enhance your text styling needs.</i>
+                </p>
+                <p>
+                    <i>Built for writers, developers, and content creators who need quick, reliable text formatting. This tool eliminates the tedious process of manually adjusting text case and formatting, letting you focus on what matters most — your content. Simple, fast, and always free.</i>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="https://github.com/theumair07" target="_blank" rel="noopener">GitHub</a>
+                </div>
+                <div class="footer-text">
+                    2025 • Made with ❤️ by <a href="https://umairyousafzai.com/" target="_blank" rel="noopener">Umair Yousafzai</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
