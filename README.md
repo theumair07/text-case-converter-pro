@@ -6,7 +6,7 @@ A modern, elegant text case conversion utility with glassmorphism design and ins
 
 Converter PRO is a powerful, free online text case conversion tool designed for writers, developers, content creators, and anyone who needs quick, reliable text formatting. Built with a beautiful glassmorphism interface and dark theme, this tool eliminates the tedious process of manually adjusting text case and formatting, letting you focus on what matters most — your content.
 
-**🌐 Live Demo:** [https://steady-bonbon-c81db8.netlify.app](https://steady-bonbon-c81db8.netlify.app)
+**🌐 Live Demo:** [https://text-case-converter-pro.netlify.app/](https://text-case-converter-pro.netlify.app/)
 
 ## Table of Contents
 
