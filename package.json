@@ -6,7 +6,16 @@
   "scripts": {
     "dev": "http-server . -p 8000 -o"
   },
-  "keywords": ["text", "converter", "case", "formatting", "utility"],
+  "keywords": [
+    "text",
+    "converter",
+    "case",
+    "formatting",
+    "utility"
+  ],
   "author": "Umair Yousafzai",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^7.1.2"
+  }
 }
