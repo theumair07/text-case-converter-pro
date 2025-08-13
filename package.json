@@ -4,7 +4,7 @@
   "description": "A modern text case conversion utility with glassmorphism design",
   "main": "index.html",
   "scripts": {
-    "dev": "http-server . -p 8000 -o",
+    "dev": "http-server . -p 8000 -o"
   },
   "keywords": ["text", "converter", "case", "formatting", "utility"],
   "author": "Umair Yousafzai",
