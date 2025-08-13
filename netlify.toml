@@ -1,8 +1,9 @@
 [build]
-  publish = "."
-  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF"
+publish = "Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'vite' imported from /home/project/[eval1]\r\n\u001b[90m    at packageResolve (node:internal/modules/esm/resolve:161:9233)\u001b[39m\r\n\u001b[90m    at moduleResolve (node:internal/modules/esm/resolve:161:9926)\u001b[39m\r\n\u001b[90m    at defaultResolve (node:internal/modules/esm/resolve:161:12052)\u001b[39m\r\n\u001b[90m    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:157:5815)\u001b[39m\r\n\u001b[90m    at #n (node:internal/modules/esm/loader:157:5397)\u001b[39m\r\n\u001b[90m    at ModuleLoader.resolve (node:internal/modules/esm/loader:157:5293)\u001b[39m\r\n\u001b[90m    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:157:1852)\u001b[39m\r\n\u001b[90m    at ModuleJob._link (node:internal/modules/esm/module_job:158:1632)\u001b[39m {\r\n  code: \u001b[32m'ERR_MODULE_NOT_FOUND'\u001b[39m\r\n}\r\n\r\nNode.js v20.19.1"
+ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF"
+command = "npx vite build"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+from = "/*"
+to = "/index.html"
+status = 200
