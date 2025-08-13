@@ -4,7 +4,7 @@
   "description": "A modern text case conversion utility with glassmorphism design",
   "main": "index.html",
   "scripts": {
-    "start": "python -m http.server 8000",
+    "dev": "http-server . -p 8000 -o",
     "dev": "python -m http.server 8000"
   },
   "keywords": ["text", "converter", "case", "formatting", "utility"],
