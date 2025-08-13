@@ -5,7 +5,6 @@
   "main": "index.html",
   "scripts": {
     "dev": "http-server . -p 8000 -o",
-    "dev": "python -m http.server 8000"
   },
   "keywords": ["text", "converter", "case", "formatting", "utility"],
   "author": "Umair Yousafzai",
