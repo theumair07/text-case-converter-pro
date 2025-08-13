@@ -192,10 +192,7 @@ body {
 }
 
 .text-editor:focus {
-  border-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 
-    inset 0 1px 3px rgba(0, 0, 0, 0.2),
-    0 4px 20px rgba(0, 0, 0, 0.1);
+  border-color: rgba(255, 255, 255, 0.1);
 }
 
 .text-editor::placeholder {
